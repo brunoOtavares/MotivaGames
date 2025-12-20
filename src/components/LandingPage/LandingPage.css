@@ -1,0 +1,29 @@
+.landing-page {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  position: relative;
+}
+
+.login-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 30px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #555;
+}
+
+.olamundo{
+  color: blue;
+  font-size: 48px;  
+}
