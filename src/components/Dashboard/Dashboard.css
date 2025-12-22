@@ -42,9 +42,6 @@
   color: #d32f2f;
 }
 
-.nav-button.logout:hover {
-  background-color: #ffebee;
-}
 
 .dashboard-content {
   flex: 1;
