@@ -40,7 +40,7 @@
 .nav-button:hover {
   background-color: #fff;
   color: #003566;
-  border: 2px solid #ffc300;
+  border:1px solid #ffc300;
 }
 
 .nav-button.active {
