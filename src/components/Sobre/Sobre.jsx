@@ -18,6 +18,7 @@ function Sobre() {
   return (
     <div className="dashboard">
       <header className="dashboard-header">
+        <img src="/vite.svg" alt="MotivaGames Logo" className="logo" onClick={() => navigate('/home')} />
         <nav>
           <button onClick={() => navigate('/home')} className="nav-button">
             Home
@@ -28,10 +29,10 @@ function Sobre() {
           <button onClick={() => navigate('/sobre')} className="nav-button active">
             Sobre
           </button>
-          <button onClick={handleLogout} className="nav-button logout">
-            Sair
-          </button>
         </nav>
+        <button onClick={handleLogout} className="nav-button logout">
+          Sair
+        </button>
       </header>
       <main className="dashboard-content">
         <h1>Sobre</h1>

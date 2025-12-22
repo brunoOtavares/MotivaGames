@@ -18,6 +18,7 @@ function Perfil() {
   return (
     <div className="dashboard">
       <header className="dashboard-header">
+        <img src="/vite.svg" alt="MotivaGames Logo" className="logo" onClick={() => navigate('/home')} />
         <nav>
           <button onClick={() => navigate('/home')} className="nav-button">
             Home
@@ -28,10 +29,10 @@ function Perfil() {
           <button onClick={() => navigate('/sobre')} className="nav-button">
             Sobre
           </button>
-          <button onClick={handleLogout} className="nav-button logout">
-            Sair
-          </button>
         </nav>
+        <button onClick={handleLogout} className="nav-button logout">
+          Sair
+        </button>
       </header>
       <main>
         <h1 className='fonte'> Ola mundo </h1>
