@@ -1,29 +1,78 @@
-.landing-page {
-  width: 100vw;
-  height: 100vh;
-  background-color: white;
-  position: relative;
-}
+   body {
+      background-color: #FCF9EA;
+    }
+    h1 {
+        color: #132440;
+        font-family: "Outfit", sans-serif;
+        text-align: center;
+        font-size: 100px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    h2 {
+        color: #132440;
+        font-family: "Outfit", sans-serif;
+        text-align: center;
+        font-size: 25px;
+        font-style: italic;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    h3 {
+        color: #132440;
+        font-family: "Outfit", sans-serif;
+        text-align: center;
+        font-size: 30pt;
+    }
+    h4 {
+        color: #132440;
+        font-family: "Outfit", sans-serif;
+        font-size: 15pt;
+        margin-bottom: auto;
+        text-align: center;
 
-.login-button {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  padding: 10px 30px;
-  background-color: #333;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.login-button:hover {
-  background-color: #555;
-}
-
-.olamundo{
-  color: blue;
-  font-size: 48px;  
-}
+    }
+    img#firstgif {
+        margin: 10px auto;
+        display: block;
+        max-width: 1000px;
+        height: 500px;
+        border-radius: 30px;       
+    }
+    img#secondgif {
+        display: block;
+        margin: 10px auto;
+        max-width: 500px;
+        height: 300;
+        border-radius: 30px;       
+    }
+    img#thirdgif {
+        margin: 10px auto;
+        display: block;
+        max-width: 500px;
+        height: 300px;
+        border-radius: 30px;       
+    }
+    .landing-cta {
+      display: flex;
+      justify-content: center;
+      gap: 5px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .landing-btn {
+      text-decoration: none;
+      background-color: #132440;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-family: "Outfit", sans-serif;
+      font-size: 20px;
+      margin: 0 10px;
+      transition: background 0.2s;
+      display: inline-block;
+    }
+    p {
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    }
