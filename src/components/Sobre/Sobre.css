@@ -57,12 +57,77 @@
 .dashboard-content {
   flex: 1;
   padding: 40px;
+  overflow-y: auto;
 }
 
 .dashboard-content h1 {
   color: #ffc300;
   font-size: 32px;
 }
-.fonte{
-    color: #ffc300 !important;
+
+.fonte {
+  color: #ffc300 !important;
+}
+
+.sobre-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #f8f9fa;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sobre-container h1 {
+  color: #003566;
+  font-size: 36px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.sobre-section {
+  margin-bottom: 30px;
+}
+
+.sobre-section h2 {
+  color: #003566;
+  font-size: 28px;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #ffc300;
+  padding-bottom: 10px;
+}
+
+.sobre-description {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.sobre-description strong {
+  color: #003566;
+  font-weight: 600;
+}
+
+.regras-lista {
+  list-style: none;
+  padding: 0;
+}
+
+.regras-lista li {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #333;
+  padding: 12px 20px;
+  margin-bottom: 10px;
+  background-color: white;
+  border-left: 4px solid #ffc300;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.regras-lista li:hover {
+  transform: translateX(5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 } 
