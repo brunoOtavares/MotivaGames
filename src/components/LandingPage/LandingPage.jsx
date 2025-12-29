@@ -2,6 +2,8 @@ import { useNavigate } from 'react-router-dom';
 import './LandingPage.css';
 
 function LandingPage() {
+  const navigate = useNavigate();
+
   return (
     <div className="landing-container">
       <header className="landing-header">
@@ -36,11 +38,11 @@ function LandingPage() {
         </section>
 
         <section className="landing-cta">
-          <a href="/login" className="landing-btn">Entrar</a>
+          <button onClick={() => navigate('/login')} className="landing-btn">Entrar</button>
         </section>
 
         <section className="landing-cta">
-          <a href="/sobre" className="landing-btn secondary">Saiba Mais</a>
+          <button onClick={() => navigate('/sobre')} className="landing-btn secondary">Saiba Mais</button>
         </section>
       </main>
 

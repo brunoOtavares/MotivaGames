@@ -1,4 +1,4 @@
-  body {
+* {
   margin: 0;
   font-family: "Outfit", sans-serif;
 
@@ -10,6 +10,7 @@
     }
     .landing-footer {
         background-color: #002455;
+        font-family:monospace;
         text-align: center;
     }
     h1 {
