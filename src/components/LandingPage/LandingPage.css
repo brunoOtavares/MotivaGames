@@ -35,14 +35,34 @@
         font-family: "Outfit", sans-serif;
         text-align: center;
         font-size: 30pt;
+        position: relative;
     }
     h4 {
-        color: #132440;
+        color: #FBEFEF;
         font-family: "Outfit", sans-serif;
-        font-size: 15pt;
+        font-size: 30pt;
         margin-bottom: auto;
         text-align: center;
-
+        position: relative;
+        top: 275px;
+    }
+    h5 {
+        color: #FBEFEF;
+        font-family: "Outfit", sans-serif;
+        font-size: 30pt;
+        margin-bottom: auto;
+        text-align: center;
+        position: relative;
+        top: 170px;
+    }
+    h6 {
+        color: #FBEFEF;
+        font-family: "Outfit", sans-serif;
+        font-size: 30pt;
+        margin-bottom: auto;
+        text-align: center;
+        position: relative;
+        top: 175px;
     }
     img#firstgif {
         margin: 10px auto;
@@ -88,4 +108,11 @@
     font-family: 'Outfit', sans-serif;
     text-align: center;
     color: white;
+    }
+    footer p {
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    position: relative;
     }
