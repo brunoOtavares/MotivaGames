@@ -116,3 +116,39 @@
     padding: 10px;
     position: relative;
     }
+
+    @media (max-width: 600px) {
+        h1 {
+            font-size: 50px;
+        }
+        h2 {
+            font-size: 15px;
+        }
+        h3 {
+            font-size: 20pt;
+        }
+        h4 {
+            font-size: 20pt;
+            top: 150px;
+        }
+        h5 {
+            font-size: 20pt;
+            top: 100px;
+        }
+        h6 {
+            font-size: 20pt;
+            top: 100px;
+        }
+        img#firstgif {
+            max-width: 90%;
+            height: auto;
+        }
+        img#secondgif {
+            max-width: 90%;
+            height: auto;
+        }
+        img#thirdgif {
+            max-width: 90%;
+            height: auto;
+        }
+    }
